@@ -1,5 +1,5 @@
 # Designed by Ferdinand
-# Made on the 1st of November 2021
+# Created on the 1st of October 2021 and finished on the 1st of November 2021
 
 import time
 import random 
