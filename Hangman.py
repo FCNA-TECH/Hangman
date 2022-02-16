@@ -9,7 +9,7 @@ from time import sleep
 def random_word_generator():
     with open('sowpods.txt', 'r') as word_bank:
         word = word_bank.read().splitlines()  # this will read every line of the file and seperate each word into its own list element. without it 'word' would just be a big string
-        word_selector = randint(1, len(word))  # the text file starts with a blankspace so this is here to avoid that   
+        word_selector = randint(1, len(word))   
         random_word = word[word_selector] 
     return random_word
 
